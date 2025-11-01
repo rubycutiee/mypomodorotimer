@@ -75,18 +75,18 @@ button {
 
 
 #start {
-    background-color: #d4a373; /* mint green */
-}
+    background-color: #d4a373; 
 
 #stop {
-    background-color: #b07b54; /* pastel pink */
+    background-color: #b07b54; 
 }
 
 #reset {
-    background-color: #a47148; /* soft lavender */
+    background-color: #a47148; 
 }
 
 button:hover {
     transform: translateY(-6px);
     filter: brightness(1.1);
 }
+
