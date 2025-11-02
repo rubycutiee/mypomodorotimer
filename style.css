@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgb(222, 236, 201);
+  background-image: url("grass/grass.jpg");
+  background-repeat: repeat-x;
+  background-position: bottom;
+  background-size: auto 180px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    color: #4b4453;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 8em;
+    padding: 3em 3em;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px);
+}
+
+.title {
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #7a3f08;
+}
+
+hr {
+    width: 100%;
+    background: #8f3317;
+    height: 2px;
+    border-radius: 1em;
+    border: none;
+    margin-top: 0.2em;
+}
+
+.timer {
+  font-size: 6em;
+  font-weight: 700;
+  color: #3e3328;
+  text-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  letter-spacing: 2px;
+}
+
+.button-wrapper {
+    display: flex;
+    gap: 1.2em;
+}
+
+button {
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding: 0.7em 1.8em;
+    border-radius: 2em;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+#start {
+    background-color: #d4a373; /* mint green */
+}
+
+#stop {
+    background-color: #b07b54; /* pastel pink */
+}
+
+#reset {
+    background-color: #a47148; /* soft lavender */
+}
+
+button:hover {
+    transform: translateY(-6px);
+    filter: brightness(1.1);
+}
